@@ -1,0 +1,58 @@
+com.echoguard.privacy.app-core-runtime-2.2.0-0 C:\Users\shrad\.gradle\caches\transforms-4\02b942d0aec4516d013dc3427e888582\transformed\core-runtime-2.2.0\res
+com.echoguard.privacy.app-material3-release-1 C:\Users\shrad\.gradle\caches\transforms-4\05ea93cdcd854f5997567541c4460a85\transformed\material3-release\res
+com.echoguard.privacy.app-ui-release-2 C:\Users\shrad\.gradle\caches\transforms-4\099f6dc86858b6ccd12768170ae31c97\transformed\ui-release\res
+com.echoguard.privacy.app-customview-poolingcontainer-1.0.0-3 C:\Users\shrad\.gradle\caches\transforms-4\10425cbde53cf2ab0bef2ddd23a511a7\transformed\customview-poolingcontainer-1.0.0\res
+com.echoguard.privacy.app-ui-unit-release-4 C:\Users\shrad\.gradle\caches\transforms-4\12d0d83662bf00504d18a1c471bb5312\transformed\ui-unit-release\res
+com.echoguard.privacy.app-material-ripple-release-5 C:\Users\shrad\.gradle\caches\transforms-4\141363b9c911dcaea10a1b5e82e574a6\transformed\material-ripple-release\res
+com.echoguard.privacy.app-lifecycle-viewmodel-savedstate-2.8.4-6 C:\Users\shrad\.gradle\caches\transforms-4\150ea99192054d30a6c839a1a03c9ba0\transformed\lifecycle-viewmodel-savedstate-2.8.4\res
+com.echoguard.privacy.app-ui-test-manifest-1.6.8-7 C:\Users\shrad\.gradle\caches\transforms-4\1edee569af12a1ec977f5ed93d83701f\transformed\ui-test-manifest-1.6.8\res
+com.echoguard.privacy.app-lifecycle-livedata-core-ktx-2.8.4-8 C:\Users\shrad\.gradle\caches\transforms-4\245f9d3faa1b410b92c930c5b9ac8ed1\transformed\lifecycle-livedata-core-ktx-2.8.4\res
+com.echoguard.privacy.app-lifecycle-viewmodel-release-9 C:\Users\shrad\.gradle\caches\transforms-4\2761a019d232291677653e7e683dd622\transformed\lifecycle-viewmodel-release\res
+com.echoguard.privacy.app-lifecycle-process-2.8.4-10 C:\Users\shrad\.gradle\caches\transforms-4\2c547d2f7598eab99b5112d9ad24e4eb\transformed\lifecycle-process-2.8.4\res
+com.echoguard.privacy.app-navigation-common-ktx-2.7.7-11 C:\Users\shrad\.gradle\caches\transforms-4\3215f89cce18438f400014489bdfd241\transformed\navigation-common-ktx-2.7.7\res
+com.echoguard.privacy.app-startup-runtime-1.1.1-12 C:\Users\shrad\.gradle\caches\transforms-4\46b3d8975f4bb5441e1f78276a6ead87\transformed\startup-runtime-1.1.1\res
+com.echoguard.privacy.app-activity-1.9.1-13 C:\Users\shrad\.gradle\caches\transforms-4\589761148d3000ac0cc2881b45ebd2e6\transformed\activity-1.9.1\res
+com.echoguard.privacy.app-ui-tooling-data-release-14 C:\Users\shrad\.gradle\caches\transforms-4\647caed6825b6cc75cf76b38611c23bc\transformed\ui-tooling-data-release\res
+com.echoguard.privacy.app-ui-util-release-15 C:\Users\shrad\.gradle\caches\transforms-4\657cdff232154b1185cfd113b0e0a05a\transformed\ui-util-release\res
+com.echoguard.privacy.app-navigation-runtime-2.7.7-16 C:\Users\shrad\.gradle\caches\transforms-4\67902c7ce313df086e331ab2acce75d1\transformed\navigation-runtime-2.7.7\res
+com.echoguard.privacy.app-navigation-common-2.7.7-17 C:\Users\shrad\.gradle\caches\transforms-4\69ff2aa343785d4774ac03c41d1858c1\transformed\navigation-common-2.7.7\res
+com.echoguard.privacy.app-material-release-18 C:\Users\shrad\.gradle\caches\transforms-4\6f96a5e6d463b535d1f4fea9b38ab202\transformed\material-release\res
+com.echoguard.privacy.app-core-1.13.1-19 C:\Users\shrad\.gradle\caches\transforms-4\700f7df84dea5f79eb38d8f5a185eb81\transformed\core-1.13.1\res
+com.echoguard.privacy.app-runtime-saveable-release-20 C:\Users\shrad\.gradle\caches\transforms-4\7069a1c8994ade3ac83bdf23c1d45a5e\transformed\runtime-saveable-release\res
+com.echoguard.privacy.app-ui-graphics-release-21 C:\Users\shrad\.gradle\caches\transforms-4\723a335ec9a4ade8f4b896a592c5c319\transformed\ui-graphics-release\res
+com.echoguard.privacy.app-lifecycle-runtime-release-22 C:\Users\shrad\.gradle\caches\transforms-4\760670b7b38c4ee3c29eefbd70b7fb83\transformed\lifecycle-runtime-release\res
+com.echoguard.privacy.app-lifecycle-runtime-ktx-release-23 C:\Users\shrad\.gradle\caches\transforms-4\76b116a28914a6d73830ea3d47f42183\transformed\lifecycle-runtime-ktx-release\res
+com.echoguard.privacy.app-ui-geometry-release-24 C:\Users\shrad\.gradle\caches\transforms-4\7a8ae29ea7ddb57ffeca6d4be6ee649c\transformed\ui-geometry-release\res
+com.echoguard.privacy.app-lifecycle-viewmodel-ktx-2.8.4-25 C:\Users\shrad\.gradle\caches\transforms-4\7d5099bdfca0ad413919560a175f4036\transformed\lifecycle-viewmodel-ktx-2.8.4\res
+com.echoguard.privacy.app-ui-tooling-preview-release-26 C:\Users\shrad\.gradle\caches\transforms-4\87cbd7b4394b1da76362f79df2742b59\transformed\ui-tooling-preview-release\res
+com.echoguard.privacy.app-runtime-release-27 C:\Users\shrad\.gradle\caches\transforms-4\8b08e0bd977067cf05ba75a70e64aa0e\transformed\runtime-release\res
+com.echoguard.privacy.app-profileinstaller-1.3.1-28 C:\Users\shrad\.gradle\caches\transforms-4\8ea05794f7c672b82cadbdb16b53e1f2\transformed\profileinstaller-1.3.1\res
+com.echoguard.privacy.app-foundation-layout-release-29 C:\Users\shrad\.gradle\caches\transforms-4\9225bb0409096adabd57f28e55879f2f\transformed\foundation-layout-release\res
+com.echoguard.privacy.app-activity-compose-1.9.1-30 C:\Users\shrad\.gradle\caches\transforms-4\954221145cfe5e1613840b25c9dc7eb6\transformed\activity-compose-1.9.1\res
+com.echoguard.privacy.app-lifecycle-viewmodel-compose-release-31 C:\Users\shrad\.gradle\caches\transforms-4\9586d96e077968ba58a10c88cc67e7cb\transformed\lifecycle-viewmodel-compose-release\res
+com.echoguard.privacy.app-animation-core-release-32 C:\Users\shrad\.gradle\caches\transforms-4\a064e2dc584c9071a98a7955b33a24f7\transformed\animation-core-release\res
+com.echoguard.privacy.app-annotation-experimental-1.4.0-33 C:\Users\shrad\.gradle\caches\transforms-4\a356d41d90e732bdaf1deffe0874bcf6\transformed\annotation-experimental-1.4.0\res
+com.echoguard.privacy.app-appcompat-resources-1.7.0-34 C:\Users\shrad\.gradle\caches\transforms-4\a4c3db63f05cfbabd1f2a0f674a1a727\transformed\appcompat-resources-1.7.0\res
+com.echoguard.privacy.app-ui-text-release-35 C:\Users\shrad\.gradle\caches\transforms-4\a4fb979a238ea0be8b80539c6bc03a57\transformed\ui-text-release\res
+com.echoguard.privacy.app-lifecycle-livedata-core-2.8.4-36 C:\Users\shrad\.gradle\caches\transforms-4\a9d8ffe807d07f8f317c6a912abb3e17\transformed\lifecycle-livedata-core-2.8.4\res
+com.echoguard.privacy.app-core-ktx-1.13.1-37 C:\Users\shrad\.gradle\caches\transforms-4\b38dc01af316b4d64b41bc05df743536\transformed\core-ktx-1.13.1\res
+com.echoguard.privacy.app-savedstate-ktx-1.2.1-38 C:\Users\shrad\.gradle\caches\transforms-4\b77344fa5dda40d4541a1697fd0f59f6\transformed\savedstate-ktx-1.2.1\res
+com.echoguard.privacy.app-savedstate-1.2.1-39 C:\Users\shrad\.gradle\caches\transforms-4\bf8bccd1c876dd65f0e29c9940f85b51\transformed\savedstate-1.2.1\res
+com.echoguard.privacy.app-animation-release-40 C:\Users\shrad\.gradle\caches\transforms-4\c165077efd40b15f02fe27c69bd17e92\transformed\animation-release\res
+com.echoguard.privacy.app-fragment-1.5.4-41 C:\Users\shrad\.gradle\caches\transforms-4\cdc2b18bef52a7d76920bac3b0e06567\transformed\fragment-1.5.4\res
+com.echoguard.privacy.app-emoji2-1.3.0-42 C:\Users\shrad\.gradle\caches\transforms-4\ce9c586da464a9629110e1328f3da637\transformed\emoji2-1.3.0\res
+com.echoguard.privacy.app-foundation-release-43 C:\Users\shrad\.gradle\caches\transforms-4\ceb4b8863826f39a624968900d43079e\transformed\foundation-release\res
+com.echoguard.privacy.app-appcompat-1.7.0-44 C:\Users\shrad\.gradle\caches\transforms-4\d0fe277e35a90b35dca709db851f78ea\transformed\appcompat-1.7.0\res
+com.echoguard.privacy.app-material-icons-core-release-45 C:\Users\shrad\.gradle\caches\transforms-4\e062ee247528729cf0d0d7c3339860a1\transformed\material-icons-core-release\res
+com.echoguard.privacy.app-lifecycle-livedata-2.8.4-46 C:\Users\shrad\.gradle\caches\transforms-4\e0e631ada3b8630b0e59d246ea12db19\transformed\lifecycle-livedata-2.8.4\res
+com.echoguard.privacy.app-activity-ktx-1.9.1-47 C:\Users\shrad\.gradle\caches\transforms-4\e5ad222a0161623e96464f4f5f72df41\transformed\activity-ktx-1.9.1\res
+com.echoguard.privacy.app-navigation-compose-2.7.7-48 C:\Users\shrad\.gradle\caches\transforms-4\ed18597c59b84f105a1db1d28f233488\transformed\navigation-compose-2.7.7\res
+com.echoguard.privacy.app-navigation-runtime-ktx-2.7.7-49 C:\Users\shrad\.gradle\caches\transforms-4\f6cb46b7b56c227e1088f8993995745a\transformed\navigation-runtime-ktx-2.7.7\res
+com.echoguard.privacy.app-ui-tooling-release-50 C:\Users\shrad\.gradle\caches\transforms-4\fb6a0d708dc060aa5a19c4508a11037d\transformed\ui-tooling-release\res
+com.echoguard.privacy.app-emoji2-views-helper-1.3.0-51 C:\Users\shrad\.gradle\caches\transforms-4\febdbd2a85e37341a24013a720bb17f7\transformed\emoji2-views-helper-1.3.0\res
+com.echoguard.privacy.app-resValues-52 C:\Users\shrad\Desktop\Last try\EchoGuard\app\build\generated\res\resValues\debug
+com.echoguard.privacy.app-packageDebugResources-53 C:\Users\shrad\Desktop\Last try\EchoGuard\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.echoguard.privacy.app-packageDebugResources-54 C:\Users\shrad\Desktop\Last try\EchoGuard\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.echoguard.privacy.app-debug-55 C:\Users\shrad\Desktop\Last try\EchoGuard\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.echoguard.privacy.app-debug-56 C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\debug\res
+com.echoguard.privacy.app-main-57 C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res
