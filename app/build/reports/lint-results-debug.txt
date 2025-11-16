@@ -1,0 +1,594 @@
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\build.gradle.kts:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.13.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.13.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.13.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.13.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.13.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.13.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.4 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.4"
+                      ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.4 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.4"
+                      ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.4 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.4"
+                      ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.1 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.1"
+                  ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.1 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.1"
+                  ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.1 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.1"
+                  ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.06.00"
+             ~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.06.00"
+             ~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.06.00"
+             ~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:12: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.6 [GradleDependency]
+navCompose = "2.7.7"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:12: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.6 [GradleDependency]
+navCompose = "2.7.7"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:12: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.6 [GradleDependency]
+navCompose = "2.7.7"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger.hilt.android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger.hilt.android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger.hilt.android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-android than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-compiler than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-compiler than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:13: Warning: A newer version of com.google.dagger:hilt-compiler than 2.48 is available: 2.51.1 [GradleDependency]
+hiltAndroid = "2.48"
+              ~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:14: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:14: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:14: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:15: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.1.7 [GradleDependency]
+datastore = "1.1.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:15: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.1.7 [GradleDependency]
+datastore = "1.1.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:15: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.1.7 [GradleDependency]
+datastore = "1.1.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:16: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.3 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:17: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.8.1 is available: 1.9.0 [GradleDependency]
+coroutines = "1.8.1"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:17: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.8.1 is available: 1.9.0 [GradleDependency]
+coroutines = "1.8.1"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:17: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.8.1 is available: 1.9.0 [GradleDependency]
+coroutines = "1.8.1"
+             ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:18: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+gson = "2.10.1"
+       ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:18: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+gson = "2.10.1"
+       ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:18: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+gson = "2.10.1"
+       ~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:19: Warning: A newer version of androidx.compose.material3:material3 than 1.2.1 is available: 1.4.0 [GradleDependency]
+material3 = "1.2.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:19: Warning: A newer version of androidx.compose.material3:material3 than 1.2.1 is available: 1.4.0 [GradleDependency]
+material3 = "1.2.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:19: Warning: A newer version of androidx.compose.material3:material3 than 1.2.1 is available: 1.4.0 [GradleDependency]
+material3 = "1.2.1"
+            ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:48: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.7.0" }
+                                                                                   ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:48: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.7.0" }
+                                                                                   ~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\gradle\libs.versions.toml:48: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.7.0" }
+                                                                                   ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:103: Warning: Formatting %d followed by words ("minutes"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="time_minutes_ago">%d minutes ago</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:104: Warning: Formatting %d followed by words ("hours"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="time_hours_ago">%d hours ago</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:105: Warning: Formatting %d followed by words ("days"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="time_days_ago">%d days ago</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "PluralsCandidate":
+   This lint check looks for potential errors in internationalization where
+   you have translated a message which involves a quantity and it looks like
+   other parts of the string may need grammatical changes.
+
+   For example, rather than something like this:
+     <string name="try_again">Try again in %d seconds.</string>
+   you should be using a plural:
+      <plurals name="try_again">
+           <item quantity="one">Try again in %d second</item>
+           <item quantity="other">Try again in %d seconds</item>
+       </plurals>
+   This will ensure that in other languages the right set of translations are
+   provided for the different quantity classes.
+
+   (This check depends on some heuristics, so it may not accurately determine
+   whether a string really should be a quantity. You can use tools:ignore to
+   filter out false positives.
+
+   https://developer.android.com/guide/topics/resources/string-resource.html#Plurals
+
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 29. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\themes.xml:11: Warning: Unnecessary; SDK_INT is always >= 21 [ObsoleteSdkInt]
+        <item name="android:statusBarColor" tools:targetApi="l">@color/echo_blue_dark</item>
+                                            ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.echo_blue_light appears to be unused [UnusedResources]
+    <color name="echo_blue_light">#63A4FF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:9: Warning: The resource R.color.guard_green_light appears to be unused [UnusedResources]
+    <color name="guard_green_light">#81C784</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:10: Warning: The resource R.color.guard_green_dark appears to be unused [UnusedResources]
+    <color name="guard_green_dark">#2E7D32</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:13: Warning: The resource R.color.alert_red appears to be unused [UnusedResources]
+    <color name="alert_red">#F44336</color>
+           ~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:14: Warning: The resource R.color.alert_red_light appears to be unused [UnusedResources]
+    <color name="alert_red_light">#EF5350</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:15: Warning: The resource R.color.alert_red_dark appears to be unused [UnusedResources]
+    <color name="alert_red_dark">#D32F2F</color>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:17: Warning: The resource R.color.warning_orange appears to be unused [UnusedResources]
+    <color name="warning_orange">#FF9800</color>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:18: Warning: The resource R.color.warning_orange_light appears to be unused [UnusedResources]
+    <color name="warning_orange_light">#FFB74D</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:19: Warning: The resource R.color.warning_orange_dark appears to be unused [UnusedResources]
+    <color name="warning_orange_dark">#F57C00</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:22: Warning: The resource R.color.risk_critical appears to be unused [UnusedResources]
+    <color name="risk_critical">#9B2C2C</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:23: Warning: The resource R.color.risk_high appears to be unused [UnusedResources]
+    <color name="risk_high">#E53E3E</color>
+           ~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:24: Warning: The resource R.color.risk_medium appears to be unused [UnusedResources]
+    <color name="risk_medium">#DD6B20</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:25: Warning: The resource R.color.risk_low appears to be unused [UnusedResources]
+    <color name="risk_low">#38A169</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:29: Warning: The resource R.color.background_dark appears to be unused [UnusedResources]
+    <color name="background_dark">#121212</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:30: Warning: The resource R.color.surface_light appears to be unused [UnusedResources]
+    <color name="surface_light">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:31: Warning: The resource R.color.surface_dark appears to be unused [UnusedResources]
+    <color name="surface_dark">#1E1E1E</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:34: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
+    <color name="purple_200">#FFBB86FC</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:35: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#FF6200EE</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:36: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
+    <color name="purple_700">#FF3700B3</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:37: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
+    <color name="teal_200">#FF03DAC5</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:38: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
+    <color name="teal_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:39: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\colors.xml:40: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The resource R.mipmap.ic_launcher appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.permission_usage_stats_title appears to be unused [UnusedResources]
+    <string name="permission_usage_stats_title">Usage Access Permission</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.permission_usage_stats_desc appears to be unused [UnusedResources]
+    <string name="permission_usage_stats_desc">EchoGuard needs usage access to monitor when apps use permissions in real-time. This helps detect potential privacy violations.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.permission_notification_listener_title appears to be unused [UnusedResources]
+    <string name="permission_notification_listener_title">Notification Access Permission</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.permission_notification_listener_desc appears to be unused [UnusedResources]
+    <string name="permission_notification_listener_desc">EchoGuard needs notification access to monitor permission-related system notifications and provide real-time alerts.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.permission_query_all_packages_title appears to be unused [UnusedResources]
+    <string name="permission_query_all_packages_title">App List Access</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:12: Warning: The resource R.string.permission_query_all_packages_desc appears to be unused [UnusedResources]
+    <string name="permission_query_all_packages_desc">EchoGuard needs to scan all installed apps to analyze their permission usage and risk levels.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:15: Warning: The resource R.string.dashboard_title appears to be unused [UnusedResources]
+    <string name="dashboard_title">Privacy Dashboard</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.privacy_score_title appears to be unused [UnusedResources]
+    <string name="privacy_score_title">Privacy Score</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.privacy_score_excellent appears to be unused [UnusedResources]
+    <string name="privacy_score_excellent">Excellent Privacy Protection</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.privacy_score_good appears to be unused [UnusedResources]
+    <string name="privacy_score_good">Good Privacy Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.privacy_score_fair appears to be unused [UnusedResources]
+    <string name="privacy_score_fair">Fair Privacy Protection</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.privacy_score_poor appears to be unused [UnusedResources]
+    <string name="privacy_score_poor">Privacy Needs Attention</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:23: Warning: The resource R.string.apps_title appears to be unused [UnusedResources]
+    <string name="apps_title">Installed Apps</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:24: Warning: The resource R.string.apps_filter_all appears to be unused [UnusedResources]
+    <string name="apps_filter_all">All Apps</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:25: Warning: The resource R.string.apps_filter_user appears to be unused [UnusedResources]
+    <string name="apps_filter_user">User Apps</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.apps_filter_system appears to be unused [UnusedResources]
+    <string name="apps_filter_system">System Apps</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.apps_filter_high_risk appears to be unused [UnusedResources]
+    <string name="apps_filter_high_risk">High Risk</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.apps_filter_medium_risk appears to be unused [UnusedResources]
+    <string name="apps_filter_medium_risk">Medium Risk</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.apps_filter_low_risk appears to be unused [UnusedResources]
+    <string name="apps_filter_low_risk">Low Risk</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:31: Warning: The resource R.string.apps_sort_name appears to be unused [UnusedResources]
+    <string name="apps_sort_name">Name</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:32: Warning: The resource R.string.apps_sort_risk appears to be unused [UnusedResources]
+    <string name="apps_sort_risk">Risk Score</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:33: Warning: The resource R.string.apps_sort_install_date appears to be unused [UnusedResources]
+    <string name="apps_sort_install_date">Install Date</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:34: Warning: The resource R.string.apps_sort_permissions appears to be unused [UnusedResources]
+    <string name="apps_sort_permissions">Permissions</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.alerts_title appears to be unused [UnusedResources]
+    <string name="alerts_title">Privacy Alerts</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.alert_severity_critical appears to be unused [UnusedResources]
+    <string name="alert_severity_critical">Critical</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:39: Warning: The resource R.string.alert_severity_high appears to be unused [UnusedResources]
+    <string name="alert_severity_high">High</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:40: Warning: The resource R.string.alert_severity_warning appears to be unused [UnusedResources]
+    <string name="alert_severity_warning">Warning</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:41: Warning: The resource R.string.alert_severity_info appears to be unused [UnusedResources]
+    <string name="alert_severity_info">Info</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:44: Warning: The resource R.string.settings_title appears to be unused [UnusedResources]
+    <string name="settings_title">Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:45: Warning: The resource R.string.settings_monitoring appears to be unused [UnusedResources]
+    <string name="settings_monitoring">Monitoring</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.settings_notifications appears to be unused [UnusedResources]
+    <string name="settings_notifications">Notifications</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:47: Warning: The resource R.string.settings_data_privacy appears to be unused [UnusedResources]
+    <string name="settings_data_privacy">Data &amp; Privacy</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:48: Warning: The resource R.string.settings_permissions appears to be unused [UnusedResources]
+    <string name="settings_permissions">Permissions</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:49: Warning: The resource R.string.settings_about appears to be unused [UnusedResources]
+    <string name="settings_about">About</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.settings_enable_monitoring appears to be unused [UnusedResources]
+    <string name="settings_enable_monitoring">Enable Monitoring</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.settings_enable_monitoring_desc appears to be unused [UnusedResources]
+    <string name="settings_enable_monitoring_desc">Monitor app permissions in real-time</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:54: Warning: The resource R.string.settings_real_time_alerts appears to be unused [UnusedResources]
+    <string name="settings_real_time_alerts">Real-time Alerts</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.settings_real_time_alerts_desc appears to be unused [UnusedResources]
+    <string name="settings_real_time_alerts_desc">Get notified immediately when apps access sensitive permissions</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.settings_privacy_level appears to be unused [UnusedResources]
+    <string name="settings_privacy_level">Privacy Level</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.settings_group_notifications appears to be unused [UnusedResources]
+    <string name="settings_group_notifications">Group Notifications</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.settings_group_notifications_desc appears to be unused [UnusedResources]
+    <string name="settings_group_notifications_desc">Group similar alerts together</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:61: Warning: The resource R.string.settings_weekly_reports appears to be unused [UnusedResources]
+    <string name="settings_weekly_reports">Weekly Reports</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:62: Warning: The resource R.string.settings_weekly_reports_desc appears to be unused [UnusedResources]
+    <string name="settings_weekly_reports_desc">Receive weekly privacy summary reports</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:64: Warning: The resource R.string.settings_encrypt_data appears to be unused [UnusedResources]
+    <string name="settings_encrypt_data">Encrypt Local Data</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:65: Warning: The resource R.string.settings_encrypt_data_desc appears to be unused [UnusedResources]
+    <string name="settings_encrypt_data_desc">Encrypt stored logs and settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:67: Warning: The resource R.string.settings_data_retention appears to be unused [UnusedResources]
+    <string name="settings_data_retention">Data Retention</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:68: Warning: The resource R.string.settings_export_data appears to be unused [UnusedResources]
+    <string name="settings_export_data">Export Data</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:69: Warning: The resource R.string.settings_delete_all_data appears to be unused [UnusedResources]
+    <string name="settings_delete_all_data">Delete All Data</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:72: Warning: The resource R.string.risk_level_low appears to be unused [UnusedResources]
+    <string name="risk_level_low">Low</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:73: Warning: The resource R.string.risk_level_medium appears to be unused [UnusedResources]
+    <string name="risk_level_medium">Medium</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:74: Warning: The resource R.string.risk_level_high appears to be unused [UnusedResources]
+    <string name="risk_level_high">High</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:75: Warning: The resource R.string.risk_level_critical appears to be unused [UnusedResources]
+    <string name="risk_level_critical">Critical</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:78: Warning: The resource R.string.action_grant appears to be unused [UnusedResources]
+    <string name="action_grant">Grant</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:79: Warning: The resource R.string.action_dismiss appears to be unused [UnusedResources]
+    <string name="action_dismiss">Dismiss</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:80: Warning: The resource R.string.action_view_details appears to be unused [UnusedResources]
+    <string name="action_view_details">View Details</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:81: Warning: The resource R.string.action_refresh appears to be unused [UnusedResources]
+    <string name="action_refresh">Refresh</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:82: Warning: The resource R.string.action_settings appears to be unused [UnusedResources]
+    <string name="action_settings">Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:83: Warning: The resource R.string.action_export appears to be unused [UnusedResources]
+    <string name="action_export">Export</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:84: Warning: The resource R.string.action_delete appears to be unused [UnusedResources]
+    <string name="action_delete">Delete</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:87: Warning: The resource R.string.loading appears to be unused [UnusedResources]
+    <string name="loading">Loading…</string>
+            ~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:88: Warning: The resource R.string.error_generic appears to be unused [UnusedResources]
+    <string name="error_generic">Something went wrong</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:89: Warning: The resource R.string.search_hint appears to be unused [UnusedResources]
+    <string name="search_hint">Search apps…</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:90: Warning: The resource R.string.no_results appears to be unused [UnusedResources]
+    <string name="no_results">No results found</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:93: Warning: The resource R.string.permission_camera appears to be unused [UnusedResources]
+    <string name="permission_camera">Camera</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:94: Warning: The resource R.string.permission_microphone appears to be unused [UnusedResources]
+    <string name="permission_microphone">Microphone</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:95: Warning: The resource R.string.permission_location appears to be unused [UnusedResources]
+    <string name="permission_location">Location</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:96: Warning: The resource R.string.permission_contacts appears to be unused [UnusedResources]
+    <string name="permission_contacts">Contacts</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:97: Warning: The resource R.string.permission_sms appears to be unused [UnusedResources]
+    <string name="permission_sms">SMS</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:98: Warning: The resource R.string.permission_phone appears to be unused [UnusedResources]
+    <string name="permission_phone">Phone</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:99: Warning: The resource R.string.permission_storage appears to be unused [UnusedResources]
+    <string name="permission_storage">Storage</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:102: Warning: The resource R.string.time_just_now appears to be unused [UnusedResources]
+    <string name="time_just_now">Just now</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:103: Warning: The resource R.string.time_minutes_ago appears to be unused [UnusedResources]
+    <string name="time_minutes_ago">%d minutes ago</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:104: Warning: The resource R.string.time_hours_ago appears to be unused [UnusedResources]
+    <string name="time_hours_ago">%d hours ago</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:105: Warning: The resource R.string.time_days_ago appears to be unused [UnusedResources]
+    <string name="time_days_ago">%d days ago</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:108: Warning: The resource R.string.notification_channel_alerts appears to be unused [UnusedResources]
+    <string name="notification_channel_alerts">Privacy Alerts</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:109: Warning: The resource R.string.notification_channel_monitoring appears to be unused [UnusedResources]
+    <string name="notification_channel_monitoring">Background Monitoring</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:111: Warning: The resource R.string.notification_monitoring_title appears to be unused [UnusedResources]
+    <string name="notification_monitoring_title">EchoGuard Active</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:112: Warning: The resource R.string.notification_monitoring_text appears to be unused [UnusedResources]
+    <string name="notification_monitoring_text">Monitoring app permissions</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:115: Warning: The resource R.string.privacy_policy_title appears to be unused [UnusedResources]
+    <string name="privacy_policy_title">Privacy Policy</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\shrad\Desktop\Last try\EchoGuard\app\src\main\res\values\strings.xml:116: Warning: The resource R.string.privacy_policy_content appears to be unused [UnusedResources]
+    <string name="privacy_policy_content">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+0 errors, 171 warnings

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="alert_red">#F44336</color>
+    <color name="alert_red_dark">#D32F2F</color>
+    <color name="alert_red_light">#EF5350</color>
+    <color name="background_dark">#121212</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="black">#FF000000</color>
+    <color name="echo_blue">#1976D2</color>
+    <color name="echo_blue_dark">#004BA0</color>
+    <color name="echo_blue_light">#63A4FF</color>
+    <color name="guard_green">#4CAF50</color>
+    <color name="guard_green_dark">#2E7D32</color>
+    <color name="guard_green_light">#81C784</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="risk_critical">#9B2C2C</color>
+    <color name="risk_high">#E53E3E</color>
+    <color name="risk_low">#38A169</color>
+    <color name="risk_medium">#DD6B20</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="warning_orange_dark">#F57C00</color>
+    <color name="warning_orange_light">#FFB74D</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="action_delete">Delete</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_export">Export</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_view_details">View Details</string>
+    <string name="alert_severity_critical">Critical</string>
+    <string name="alert_severity_high">High</string>
+    <string name="alert_severity_info">Info</string>
+    <string name="alert_severity_warning">Warning</string>
+    <string name="alerts_title">Privacy Alerts</string>
+    <string name="app_name">EchoGuard</string>
+    <string name="apps_filter_all">All Apps</string>
+    <string name="apps_filter_high_risk">High Risk</string>
+    <string name="apps_filter_low_risk">Low Risk</string>
+    <string name="apps_filter_medium_risk">Medium Risk</string>
+    <string name="apps_filter_system">System Apps</string>
+    <string name="apps_filter_user">User Apps</string>
+    <string name="apps_sort_install_date">Install Date</string>
+    <string name="apps_sort_name">Name</string>
+    <string name="apps_sort_permissions">Permissions</string>
+    <string name="apps_sort_risk">Risk Score</string>
+    <string name="apps_title">Installed Apps</string>
+    <string name="dashboard_title">Privacy Dashboard</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="loading">Loading…</string>
+    <string name="no_results">No results found</string>
+    <string name="notification_channel_alerts">Privacy Alerts</string>
+    <string name="notification_channel_monitoring">Background Monitoring</string>
+    <string name="notification_monitoring_text">Monitoring app permissions</string>
+    <string name="notification_monitoring_title">EchoGuard Active</string>
+    <string name="permission_camera">Camera</string>
+    <string name="permission_contacts">Contacts</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_microphone">Microphone</string>
+    <string name="permission_notification_listener_desc">EchoGuard needs notification access to monitor permission-related system notifications and provide real-time alerts.</string>
+    <string name="permission_notification_listener_title">Notification Access Permission</string>
+    <string name="permission_phone">Phone</string>
+    <string name="permission_query_all_packages_desc">EchoGuard needs to scan all installed apps to analyze their permission usage and risk levels.</string>
+    <string name="permission_query_all_packages_title">App List Access</string>
+    <string name="permission_sms">SMS</string>
+    <string name="permission_storage">Storage</string>
+    <string name="permission_usage_stats_desc">EchoGuard needs usage access to monitor when apps use permissions in real-time. This helps detect potential privacy violations.</string>
+    <string name="permission_usage_stats_title">Usage Access Permission</string>
+    <string name="privacy_policy_content">
+        EchoGuard Privacy Policy\n\n
+        
+        EchoGuard is designed to protect your privacy by monitoring how other apps use permissions on your device.\n\n
+        
+        Data Collection:\n
+        • EchoGuard only collects permission usage data locally on your device\n
+        • No personal data is transmitted to external servers\n
+        • All data is encrypted using Android Keystore\n\n
+        
+        Data Usage:\n
+        • Permission access logs are used to generate privacy scores and alerts\n
+        • App information is used to assess risk levels\n
+        • Usage statistics help identify potential privacy violations\n\n
+        
+        Data Storage:\n
+        • All data is stored locally on your device\n
+        • You can export or delete your data at any time\n
+        • Data retention period can be configured in settings\n\n
+        
+        Permissions:\n
+        • Usage Access: Required to monitor app permission usage\n
+        • Notification Access: Required for real-time monitoring\n
+        • Package Query: Required to analyze installed apps\n\n
+        
+        Contact:\n
+        For questions about this privacy policy, contact: privacy@echoguard.app
+    </string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_score_excellent">Excellent Privacy Protection</string>
+    <string name="privacy_score_fair">Fair Privacy Protection</string>
+    <string name="privacy_score_good">Good Privacy Settings</string>
+    <string name="privacy_score_poor">Privacy Needs Attention</string>
+    <string name="privacy_score_title">Privacy Score</string>
+    <string name="risk_level_critical">Critical</string>
+    <string name="risk_level_high">High</string>
+    <string name="risk_level_low">Low</string>
+    <string name="risk_level_medium">Medium</string>
+    <string name="search_hint">Search apps…</string>
+    <string name="settings_about">About</string>
+    <string name="settings_data_privacy">Data &amp; Privacy</string>
+    <string name="settings_data_retention">Data Retention</string>
+    <string name="settings_delete_all_data">Delete All Data</string>
+    <string name="settings_enable_monitoring">Enable Monitoring</string>
+    <string name="settings_enable_monitoring_desc">Monitor app permissions in real-time</string>
+    <string name="settings_encrypt_data">Encrypt Local Data</string>
+    <string name="settings_encrypt_data_desc">Encrypt stored logs and settings</string>
+    <string name="settings_export_data">Export Data</string>
+    <string name="settings_group_notifications">Group Notifications</string>
+    <string name="settings_group_notifications_desc">Group similar alerts together</string>
+    <string name="settings_monitoring">Monitoring</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_privacy_level">Privacy Level</string>
+    <string name="settings_real_time_alerts">Real-time Alerts</string>
+    <string name="settings_real_time_alerts_desc">Get notified immediately when apps access sensitive permissions</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_weekly_reports">Weekly Reports</string>
+    <string name="settings_weekly_reports_desc">Receive weekly privacy summary reports</string>
+    <string name="time_days_ago">%d days ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <style name="Base.Theme.EchoGuard" parent="Theme.AppCompat.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/echo_blue</item>
+        <item name="colorPrimaryDark">@color/echo_blue_dark</item>
+        <item name="colorAccent">@color/guard_green</item>
+        
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/echo_blue_dark</item>
+        
+        
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+    <style name="Theme.EchoGuard" parent="Base.Theme.EchoGuard"/>
+</resources>
