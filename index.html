@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EchoGuard - Your personal privacy command center. Real-time Android app permission monitoring, live alerts, and one-tap privacy controls.">
+    <meta name="keywords" content="privacy app, Android privacy, permission monitor, app security, data protection">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://echoguard.app/">
+    <meta property="og:title" content="EchoGuard - Personal Privacy Command Center">
+    <meta property="og:description" content="See exactly what your Android apps are doing. Real-time permission monitoring and instant privacy alerts.">
+    <meta property="og:image" content="PLACEHOLDER_og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://echoguard.app/">
+    <meta property="twitter:title" content="EchoGuard - Personal Privacy Command Center">
+    <meta property="twitter:description" content="See exactly what your Android apps are doing. Real-time permission monitoring and instant privacy alerts.">
+    <meta property="twitter:image" content="PLACEHOLDER_twitter-image.jpg">
+    
+    <title>EchoGuard - Your Personal Privacy Command Center</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-brand">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <path d="M16 2L4 8v8c0 7.732 5.316 14.988 12 16.5 6.684-1.512 12-8.768 12-16.5V8l-12-6z" fill="currentColor" opacity="0.2"/>
+                    <path d="M16 2L4 8v8c0 7.732 5.316 14.988 12 16.5 6.684-1.512 12-8.768 12-16.5V8l-12-6z" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M12 16l3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>EchoGuard</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#download" class="cta-btn">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Your Personal <span class="gradient-text">Privacy Command Center</span></h1>
+                    <p class="hero-subtitle">
+                        Take complete control of your Android device's privacy with real-time permission monitoring, 
+                        live access logs, and instant alerts. See exactly what apps are doing behind the scenes.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M15 9L12.5 11.5L15 14M9 9L11.5 11.5L9 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Download for Android
+                        </a>
+                        <a href="#demo" class="btn btn-secondary">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Watch Demo
+                        </a>
+                    </div>
+                    <div class="hero-stats" role="list">
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">Real-Time</div>
+                            <div class="stat-label">Privacy Monitoring</div>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">0</div>
+                            <div class="stat-label">Data Collected</div>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Free & Open</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Phone mockup using placeholder image -->
+                    <div class="phone-mockup">
+                        <img src="PLACEHOLDER_hero-phone.png" alt="EchoGuard app interface showing real-time privacy monitoring dashboard" width="300" height="600">
+                        <div class="phone-overlay">
+                            <div class="privacy-score-widget">
+                                <div class="score-circle" aria-label="Privacy score: 87 out of 100">
+                                    <svg width="120" height="120" viewBox="0 0 120 120">
+                                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--color-surface)" stroke-width="8"/>
+                                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--color-accent)" stroke-width="8" stroke-dasharray="339.292" stroke-dashoffset="47" stroke-linecap="round" class="score-progress"/>
+                                    </svg>
+                                    <span class="score-number">87</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Floating icons -->
+                    <div class="floating-icons" aria-hidden="true">
+                        <svg class="float-icon float-1" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                            <path d="M24 10L14 16v8c0 6.2 4.26 12 10 13.2 5.74-1.2 10-7 10-13.2v-8l-10-6z" fill="var(--color-primary)"/>
+                        </svg>
+                        <svg class="float-icon float-2" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="var(--color-accent)" opacity="0.1"/>
+                            <path d="M24 17c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 2c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5 2.2-5 5-5z" fill="var(--color-accent)"/>
+                        </svg>
+                        <svg class="float-icon float-3" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="var(--color-success)" opacity="0.1"/>
+                            <path d="M24 14c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 2c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8zm-1 4v5l4 2 1-1-3-2v-4h-2z" fill="var(--color-success)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Hidden Privacy Problem</h2>
+                <p>Most users have no idea what's happening behind the scenes on their devices</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <svg class="problem-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-danger)" opacity="0.1"/>
+                        <path d="M32 20c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8z" fill="var(--color-danger)"/>
+                        <path d="M18 18l28 28M46 18L18 46" stroke="var(--color-danger)" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Invisible Tracking</h3>
+                    <p>Apps silently access your camera, microphone, and location without your knowledge</p>
+                </div>
+                <div class="problem-card">
+                    <svg class="problem-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-danger)" opacity="0.1"/>
+                        <circle cx="32" cy="32" r="16" stroke="var(--color-danger)" stroke-width="3" fill="none"/>
+                        <path d="M32 24v8M32 36v2" stroke="var(--color-danger)" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    <h3>No Visibility</h3>
+                    <p>Android's built-in tools don't show real-time permission usage or historical access</p>
+                </div>
+                <div class="problem-card">
+                    <svg class="problem-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-danger)" opacity="0.1"/>
+                        <path d="M28 24h-8v16h24V24h-8M32 20v8" stroke="var(--color-danger)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="32" cy="32" r="4" fill="var(--color-danger)"/>
+                    </svg>
+                    <h3>Complex Settings</h3>
+                    <p>Navigating system settings to manage permissions is time-consuming and confusing</p>
+                </div>
+                <div class="problem-card">
+                    <svg class="problem-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-danger)" opacity="0.1"/>
+                        <path d="M40 26c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 2.4 1.1 4.6 2.8 6.1C23.5 33.6 21 37.1 21 41h22c0-3.9-2.5-7.4-5.8-8.9 1.7-1.5 2.8-3.7 2.8-6.1z" fill="var(--color-danger)"/>
+                        <path d="M36 44a2 2 0 0 1 2 2M28 44a2 2 0 0 0-2 2" stroke="var(--color-danger)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Data = Money</h3>
+                    <p>Your personal data is being harvested and sold while you remain completely unaware</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution" id="how-it-works">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>The EchoGuard Solution</h2>
+                    <p class="solution-tagline">A real-time privacy control center for your Android device.</p>
+                    <p>EchoGuard transforms your phone into a transparency machine, giving you complete visibility and control over every app's behavior. No more guessing, no more hidden tracking – just pure, actionable privacy intelligence.</p>
+                    <ul class="feature-checks" role="list">
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" fill="var(--color-success)" opacity="0.2"/>
+                                <path d="M8 12l2 2 6-6" stroke="var(--color-success)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Real-time monitoring</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" fill="var(--color-success)" opacity="0.2"/>
+                                <path d="M8 12l2 2 6-6" stroke="var(--color-success)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Instant alerts</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" fill="var(--color-success)" opacity="0.2"/>
+                                <path d="M8 12l2 2 6-6" stroke="var(--color-success)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>One-tap controls</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" fill="var(--color-success)" opacity="0.2"/>
+                                <path d="M8 12l2 2 6-6" stroke="var(--color-success)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Zero data collection</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution-visual">
+                    <!-- Network diagram visualization -->
+                    <div class="network-diagram" aria-label="Data flow visualization showing EchoGuard protecting your device">
+                        <div class="network-node center">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="36" fill="var(--color-primary)" opacity="0.2"/>
+                                <circle cx="40" cy="40" r="30" stroke="var(--color-primary)" stroke-width="2"/>
+                                <path d="M40 20v-6M40 66v-6M60 40h6M14 40h6" stroke="var(--color-primary)" stroke-width="2"/>
+                                <circle cx="40" cy="40" r="12" fill="var(--color-primary)"/>
+                            </svg>
+                            <span>Your Device</span>
+                        </div>
+                        <div class="network-node app app-1">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="var(--color-accent)" opacity="0.2"/>
+                                <path d="M24 16l-8 8 8 8 8-8-8-8z" fill="var(--color-accent)"/>
+                            </svg>
+                            <span>App A</span>
+                        </div>
+                        <div class="network-node app app-2">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="var(--color-accent)" opacity="0.2"/>
+                                <circle cx="24" cy="24" r="8" fill="var(--color-accent)"/>
+                            </svg>
+                            <span>App B</span>
+                        </div>
+                        <div class="network-node app app-3">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="var(--color-accent)" opacity="0.2"/>
+                                <path d="M16 24h16M24 16v16" stroke="var(--color-accent)" stroke-width="4"/>
+                            </svg>
+                            <span>App C</span>
+                        </div>
+                        <svg class="connection-lines" aria-hidden="true">
+                            <line class="conn-1" x1="0" y1="0" x2="100" y2="0" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,5"/>
+                            <line class="conn-2" x1="0" y1="0" x2="100" y2="0" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,5"/>
+                            <line class="conn-3" x1="0" y1="0" x2="100" y2="0" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Privacy Features</h2>
+                <p>Every tool you need to protect your digital privacy in one elegant app</p>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M24 14c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 4c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z" fill="var(--color-primary)"/>
+                        <circle cx="24" cy="24" r="3" fill="var(--color-primary)"/>
+                    </svg>
+                    <h3>Permission Monitor</h3>
+                    <p>See all app permissions at a glance with visual indicators for high-risk access patterns</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M16 16h16v3H16zM16 22h16v3H16zM16 28h10v3H16z" fill="var(--color-primary)"/>
+                        <circle cx="36" cy="30" r="4" fill="var(--color-accent)"/>
+                    </svg>
+                    <h3>Live Access Logs</h3>
+                    <p>Real-time feed showing exactly when apps access your camera, microphone, location, and more</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M24 14c-1.1 0-2 .9-2 2v2c-2.8.5-5 2.9-5 5.8 0 3.2 2.6 5.8 5.8 5.8h2.4c1.2 0 2.2 1 2.2 2.2 0 1.2-1 2.2-2.2 2.2h-4.4c-.5 0-.8-.4-.8-.8h-3c0 2.1 1.7 3.8 3.8 3.8h2v2c0 1.1.9 2 2 2s2-.9 2-2v-2c2.8-.5 5-2.9 5-5.8 0-3.2-2.6-5.8-5.8-5.8h-2.4c-1.2 0-2.2-1-2.2-2.2 0-1.2 1-2.2 2.2-2.2h4.4c.5 0 .8.4.8.8h3c0-2.1-1.7-3.8-3.8-3.8h-2v-2c0-1.1-.9-2-2-2z" fill="var(--color-primary)"/>
+                    </svg>
+                    <h3>Smart Alerts</h3>
+                    <p>Get notified instantly when apps behave suspiciously or access sensitive data unexpectedly</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M24 14l-8 8h5v12h6V22h5l-8-8z" fill="var(--color-primary)"/>
+                    </svg>
+                    <h3>One-Tap Control</h3>
+                    <p>Jump directly to system permission settings with guided instructions for easy management</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M24 14a10 10 0 0 0-10 10c0 5.5 4.5 10 10 10s10-4.5 10-10-4.5-10-10-10zm0 4c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z" fill="var(--color-primary)"/>
+                        <path d="M24 20v4l3 2" stroke="var(--color-bg)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Privacy Score</h3>
+                    <p>Live risk assessment of your device's privacy health with actionable improvement suggestions</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M24 34c5.5 0 10-4.5 10-10s-4.5-10-10-10-10 4.5-10 10 4.5 10 10 10z" stroke="var(--color-primary)" stroke-width="3" fill="none"/>
+                        <path d="M14 24h20M24 14v20" stroke="var(--color-primary)" stroke-width="2"/>
+                        <circle cx="24" cy="24" r="2" fill="var(--color-primary)"/>
+                    </svg>
+                    <h3>Timeline Replay</h3>
+                    <p>Scrub through historical data to see patterns and understand your apps' behavior over time</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <circle cx="24" cy="16" r="3" fill="var(--color-primary)"/>
+                        <circle cx="16" cy="28" r="3" fill="var(--color-primary)"/>
+                        <circle cx="32" cy="28" r="3" fill="var(--color-primary)"/>
+                        <path d="M24 19v6M21 26l-3 1M27 26l3 1" stroke="var(--color-primary)" stroke-width="2"/>
+                    </svg>
+                    <h3>Data Flow Visualization</h3>
+                    <p>Beautiful animated graphs showing how your data moves from apps to external services</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <circle cx="24" cy="24" r="20" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M28 18h-8c-2.2 0-4 1.8-4 4v10c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4V22c0-2.2-1.8-4-4-4z" fill="var(--color-primary)"/>
+                        <path d="M20 18v-2c0-2.2 1.8-4 4-4s4 1.8 4 4v2" stroke="var(--color-primary)" stroke-width="2"/>
+                    </svg>
+                    <h3>Encrypted Storage</h3>
+                    <p>All privacy logs remain securely on your device – we never see or store your data</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2>See EchoGuard in Action</h2>
+                <p>Experience the power of real-time privacy monitoring</p>
+            </div>
+            <div class="demo-wrapper">
+                <!-- Privacy Score Gauge -->
+                <div class="demo-visualization">
+                    <div class="gauge-container">
+                        <svg class="gauge-svg" viewBox="0 0 200 200" aria-label="Privacy score gauge">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="var(--color-surface)" stroke-width="16"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="var(--color-accent)" stroke-width="16" 
+                                    stroke-dasharray="502.65" stroke-dashoffset="75" stroke-linecap="round" 
+                                    class="gauge-fill" id="gaugeProgress"/>
+                            <text x="100" y="95" text-anchor="middle" class="gauge-score" id="gaugeScore">87</text>
+                            <text x="100" y="115" text-anchor="middle" class="gauge-label">Privacy Score</text>
+                        </svg>
+                    </div>
+                    
+                    <!-- Timeline Scrubber -->
+                    <div class="timeline-scrubber">
+                        <h3>Recent Activity</h3>
+                        <div class="timeline-track">
+                            <input type="range" min="0" max="100" value="100" class="timeline-slider" id="timelineSlider" 
+                                   aria-label="Timeline scrubber">
+                            <div class="timeline-events" id="timelineEvents">
+                                <!-- Events will be populated by JS -->
+                            </div>
+                        </div>
+                        <div class="timeline-current" id="timelineCurrent">
+                            <span class="event-time">9:41 AM</span>
+                            <span class="event-app">WhatsApp</span>
+                            <span class="event-permission">Microphone Access</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Section -->
+    <section class="audience" id="audience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Who Benefits from EchoGuard?</h2>
+                <p>Privacy protection for everyone, tailored to your needs</p>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <circle cx="32" cy="24" r="8" fill="var(--color-primary)"/>
+                        <path d="M20 44c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="var(--color-primary)" stroke-width="3"/>
+                        <path d="M32 10l-6 6 6 6 6-6-6-6z" fill="var(--color-accent)"/>
+                    </svg>
+                    <h3>Privacy-Conscious Users</h3>
+                    <p>Take control of your digital footprint and protect your personal information from unwanted access</p>
+                </div>
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <path d="M32 16l-12 8v12c0 7.4 5.1 14.4 12 16 6.9-1.6 12-8.6 12-16V24l-12-8z" fill="var(--color-primary)"/>
+                        <path d="M28 32l2 2 6-6" stroke="var(--color-bg)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Students</h3>
+                    <p>Learn about digital privacy while protecting your academic and personal data from tracking</p>
+                </div>
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <circle cx="24" cy="24" r="6" fill="var(--color-primary)"/>
+                        <circle cx="40" cy="24" r="6" fill="var(--color-primary)"/>
+                        <path d="M16 44c0-4.4 3.6-8 8-8h0c4.4 0 8 3.6 8 8M32 44c0-4.4 3.6-8 8-8h0c4.4 0 8 3.6 8 8" stroke="var(--color-primary)" stroke-width="2"/>
+                    </svg>
+                    <h3>Parents</h3>
+                    <p>Monitor and protect your family's devices, teaching digital safety through transparency</p>
+                </div>
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <rect x="20" y="24" width="24" height="20" rx="2" fill="var(--color-primary)"/>
+                        <path d="M26 24v-4c0-3.3 2.7-6 6-6s6 2.7 6 6v4" stroke="var(--color-primary)" stroke-width="2"/>
+                    </svg>
+                    <h3>Professionals</h3>
+                    <p>Ensure sensitive business information stays secure on personal and company devices</p>
+                </div>
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <rect x="18" y="22" width="28" height="20" rx="2" stroke="var(--color-primary)" stroke-width="2" fill="none"/>
+                        <path d="M24 28h4M24 32h8M24 36h6" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Developers</h3>
+                    <p>Test and analyze app permission behavior during development and security audits</p>
+                </div>
+                <div class="audience-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                        <circle cx="32" cy="32" r="28" fill="var(--color-primary)" opacity="0.1"/>
+                        <rect x="20" y="20" width="24" height="28" rx="2" fill="var(--color-primary)"/>
+                        <path d="M26 26h12M26 30h12M26 34h8" stroke="var(--color-bg)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Journalists</h3>
+                    <p>Protect source confidentiality and sensitive communications with advanced privacy monitoring</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why It Matters -->
+    <section class="why-matters">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why EchoGuard Matters</h2>
+                <p>Take back control in the age of digital surveillance</p>
+            </div>
+            <div class="why-content">
+                <div class="why-point">
+                    <div class="point-number">01</div>
+                    <div class="point-text">
+                        <h3>Your Data is Your Currency</h3>
+                        <p>Every app interaction, location ping, and voice recording has monetary value. Companies profit billions from your personal information – shouldn't you know when it's being collected?</p>
+                    </div>
+                </div>
+                <div class="why-point">
+                    <div class="point-number">02</div>
+                    <div class="point-text">
+                        <h3>Hidden Permissions Epidemic</h3>
+                        <p>Studies show 89% of apps request unnecessary permissions. Most users grant them without understanding the implications or ongoing access patterns.</p>
+                    </div>
+                </div>
+                <div class="why-point">
+                    <div class="point-number">03</div>
+                    <div class="point-text">
+                        <h3>Background Tracking is Everywhere</h3>
+                        <p>Your apps don't stop working when you close them. Location tracking, microphone listening, and data harvesting continue 24/7 – until now.</p>
+                    </div>
+                </div>
+                <div class="why-point">
+                    <div class="point-number">04</div>
+                    <div class="point-text">
+                        <h3>Settings Buried by Design</h3>
+                        <p>Tech companies make privacy controls deliberately hard to find and use. EchoGuard brings them to the surface with clear, actionable insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about EchoGuard</p>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Does EchoGuard track or collect my data?</summary>
+                    <p>Absolutely not. EchoGuard processes everything locally on your device. We never see, collect, or transmit your privacy data. Our entire business model is built around protecting your privacy, not exploiting it.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is everything processed locally on my device?</summary>
+                    <p>Yes, 100%. All permission monitoring, analysis, and storage happens entirely on your Android device. Your privacy data never leaves your phone, and our servers never see your personal information.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can EchoGuard actually revoke app permissions?</summary>
+                    <p>EchoGuard provides guided one-tap access to Android's system permission settings. We'll take you directly to the right screen with clear instructions on how to modify permissions for optimal privacy.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Will EchoGuard slow down my phone or drain battery?</summary>
+                    <p>EchoGuard is designed for efficiency. Our monitoring uses minimal system resources and intelligent batching to preserve battery life. Most users report no noticeable impact on performance.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>What Android versions are supported?</summary>
+                    <p>EchoGuard supports Android 7.0 (API level 24) and above. For the best experience and full feature set, we recommend Android 10 or newer.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How accurate is the Privacy Score?</summary>
+                    <p>The Privacy Score is calculated using advanced algorithms that analyze permission patterns, app behavior, and security best practices. It's updated in real-time and provides actionable suggestions for improvement.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="download">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Take Control?</h2>
+                <p>Join thousands of users who've reclaimed their digital privacy. Download EchoGuard today and see what your apps are really doing.</p>
+                <div class="cta-features">
+                    <span>✓ Free to download</span>
+                    <span>✓ No ads</span>
+                    <span>✓ Regular updates</span>
+                    <span>✓ 24/7 protection</span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large" onclick="alert('Coming soon! EchoGuard will be available for download shortly.'); return false;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 20h12M12 4v12m0 0l-4-4m4 4l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Download APK (Coming Soon)
+                    </a>
+                    <a href="#demo" class="btn btn-secondary btn-large">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        View Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <path d="M24 4L8 12v12c0 9.9 6.8 19.2 16 21 9.2-1.8 16-11.1 16-21V12L24 4z" fill="currentColor" opacity="0.2"/>
+                        <path d="M24 4L8 12v12c0 9.9 6.8 19.2 16 21 9.2-1.8 16-11.1 16-21V12L24 4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>EchoGuard</span>
+                    <p>Your personal privacy command center. Protecting your digital life, one permission at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#download">Download</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#">Release Notes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Privacy</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">Data Protection</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Bug Reports</a></li>
+                            <li><a href="#">Feature Requests</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press Kit</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EchoGuard. All rights reserved. Made with privacy in mind.</p>
+                <div class="footer-badges">
+                    <span class="badge">🔒 Zero Data Collection</span>
+                    <span class="badge">🛡️ Encrypted</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
